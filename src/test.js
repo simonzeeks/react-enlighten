@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import EnlightenedComponent from "./component";
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+describe("EnlightenedComponent", () => {
+  it("is truthy", () => {
+    expect(EnlightenedComponent).toBeTruthy();
+  });
+});
