@@ -38,16 +38,22 @@ npm install --save react-enlighten
 
 ## Usage
 
+### HOC
+
 ```jsx
-import React, { Component } from "react";
+import { enlighten } from "react-enlighten";
 
-import EnlightenedComponent from "react-enlighten";
-
-class Example extends EnlightenedComponent {
-  render() {
-    return <MyComponent />;
-  }
+function WokeAF({ size }) {
+  return <div> check the size: {size.width} (thx, react-sizeme) </div>;
 }
+
+export default enlighten()(WokeAF);
+```
+
+### Render Prop Pattern
+
+```jsx
+// work in progress
 ```
 
 ## License
