@@ -30,6 +30,10 @@ and styles, made available in both jsx and css, will make responsive design on
 a component level more viable. In addition, one might imagine an entirely
 new set of opportunities to be introduced with this approach.
 
+## Call for contributions
+
+Calling for contributors - we need help to get this project started and in a working state. Please visit github to see and contribute to the source code.
+
 ## Install
 
 ```bash
